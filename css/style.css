@@ -281,7 +281,7 @@ h1 {
 --------------------------------------------------------------------------------*/  
 @media (min-width: 551px) {
     #sub_cover  {
-        padding: 70px 0;
+        padding: 40px 0;
         background-size: cover; }
     #sub_cover span {
      text-align: center;
@@ -289,13 +289,14 @@ h1 {
      color: white;
      font-size: 32px;
      font-weight: bold;
-     letter-spacing: 0.2rem;}}
+     letter-spacing: 0.2rem;
+     display: block; } }
 
 /* sub_cover @media (max-width: 550px) {
 --------------------------------------------------------------------------------*/        
   @media (max-width: 550px) {
     #sub_cover  {
-        padding: 30px 0;
+        padding: 80px 0;
         background-size: cover; }
     #sub_cover span {
         text-align: center;
@@ -318,7 +319,7 @@ h1 {
   list-style: none;
   font-size: 15px;
   font-size: 1.5rem;
-  color: #626262; }
+  color: #222; }
 #contents .news_lists span {
   text-align: left;
   color: #42b9d0;
@@ -328,7 +329,7 @@ h1 {
   font-weight: bold;
   line-height: 24px;
   margin-bottom: 3px;
-  padding-right: 20px; }
+  padding-right: 10px; }
 #contents .fb-iframe_widget {
   display: inline-block;
   position: relative;
@@ -362,7 +363,7 @@ h1 {
     list-style: none;
     font-size: 15px;
     font-size: 1.5rem;
-    color: #626262; }
+    color: #222; }
   #contents .news_lists span {
     text-align: left;
     color: #42b9d0;
@@ -372,11 +373,11 @@ h1 {
     font-weight: bold;
     line-height: 24px;
     margin-bottom: 3px;
-    padding-right: 20px; }
+    padding-right: 10px; }
   #contents .pc_sidemenu {
     display: block; }
   #contents .pc_sidemenu h3 {
-      text-align: center;
+      text-align: left;
       font-size: 14px;
       font-size: 1.4rem;
       color: #42b9d0;
@@ -419,7 +420,7 @@ h1 {
     list-style: none;
     font-size: 15px;
     font-size: 1.5rem;
-    color: #626262; }
+    color: #222; }
   #contents .news_lists li span {
     text-align: left;
     color: #42b9d0;
@@ -457,6 +458,24 @@ h1 {
     padding: 0px 0% 15px 0%;
     border-bottom: 3px solid #42b9d0;
     margin-bottom: 0px; }
+  #contents .u-full-width {
+    color: #626262; }
+  #contents .u-full-width th {
+      padding-right: 20px;
+      padding: 20px 0;
+      color: #626262;
+      text-align: left;
+      font-size: 14px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-bottom: 1px solid #E1E1E1; }
+  #contents .u-full-width td {
+      padding: 20px 0;
+      color: #626262;
+      text-align: left;
+      font-size: 14px;
+      font-size: 1.4rem;
+      border-bottom: 1px solid #E1E1E1; }
 
 /* contents @media (max-width: 550px) {
 --------------------------------------------------------------------------------*/ 
@@ -473,24 +492,6 @@ h1 {
     margin-top: 0px;
     display: block; }}
 
-  #contents .u-full-width {
-    color: #626262; }
-    .u-full-width th {
-      padding-right: 40px;
-      padding: 20px 0;
-      color: #626262;
-      text-align: left;
-      font-size: 14px;
-      font-size: 1.4rem;
-      font-weight: bold;
-      border-bottom: 1px solid #E1E1E1; }
-    #contents .u-full-width td {
-      padding: 20px 0;
-      color: #626262;
-      text-align: left;
-      font-size: 14px;
-      font-size: 1.4rem;
-      border-bottom: 1px solid #E1E1E1; }
 
   #sidebar .fb-iframe_widget {
     vertical-align: bottom;
