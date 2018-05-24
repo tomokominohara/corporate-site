@@ -279,13 +279,10 @@ h1 {
 
 /* sub_cover @media (min-width: 551px) {
 --------------------------------------------------------------------------------*/  
-@media (min-width: 551px) {
-    #sub_cover  {
-        padding: 40px 0;
-        background-size: cover; }
-    #sub_cover span {
+@media (min-width: 550px) {
+    #sub_cover h2 {
      text-align: center;
-     padding: 35px 0;
+     padding:40px 0;
      color: white;
      font-size: 32px;
      font-weight: bold;
@@ -295,16 +292,16 @@ h1 {
 /* sub_cover @media (max-width: 550px) {
 --------------------------------------------------------------------------------*/        
   @media (max-width: 550px) {
-    #sub_cover  {
-        padding: 80px 0;
-        background-size: cover; }
-    #sub_cover span {
-        text-align: center;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: 0.2rem;
-        display: block; } }
+    #sub_cover {
+    text-align: center;}
+    #sub_cover h2 {
+     text-align: center;
+     color: white;
+     font-size: 16px;
+     font-weight: bold;
+     margin: 0;
+     letter-spacing: 0.2rem;
+     display: block;}}
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
    #sub_cover {
@@ -493,13 +490,25 @@ h1 {
     display: block; }}
 
 
-  #sidebar .fb-iframe_widget {
+  #sidebar .iframe {
     vertical-align: bottom;
     height: 300px; 
-    width: 211px;
-    display: inline-block;
+    width: 280px;
+    display: block;
     position: relative;
     text-align: justify;}
+    
+    
+/* sidebar .fb-iframe_widget @media (max-width: 550px) {
+--------------------------------------------------------------------------------*/ 
+@media (max-width: 550px) {
+  #sidebar .iframe {
+    vertical-align: bottom;
+    height: 300px; 
+    width: 280px;
+    display: block;
+    position: relative;
+    text-align: justify;}}   
     
   
 /*# sourceMappingURL=style.css.map */
